@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "burgerbuilder-bymrordin-74c69",
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+.Toolbar {
+  height: 54px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  position: fixed;
+  background-color: #703b09;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  z-index: 90;
+}
+
+.Toolbar nav {
+  height: 100%;
+}
+
+.Logo {
+  height: 80%;
+}
+
+@media (max-width: 499px) {
+  .DasktopOnly {
+    display: none;
+  }
+}

@@ -1,0 +1,45 @@
+.Layout {
+  margin-top: 200px;
+}
+
+.Author {
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 20px;
+  width: 80%;
+  margin: auto;
+  box-shadow: 0 2px 3px solid #ccc;
+  border: 1px solid #eee;
+}
+
+.Author input {
+  padding: 7px 0;
+  width: 60%;
+  margin: 7px auto;
+}
+.Author button {
+  padding: 7px 0;
+  width: 60%;
+  margin: 7px auto;
+}
+.NotValid {
+  border: 1px solid red;
+  background-color: salmon;
+}
+
+.Author select {
+  display: block;
+  width: 62%;
+  margin: 7px auto;
+}
+
+@media (min-width: 600px) {
+  .Author {
+    width: 500px;
+    margin: 30px auto;
+  }
+  .Layout {
+    margin-top: 100px;
+  }
+}
